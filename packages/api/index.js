@@ -1,7 +1,7 @@
 const express = require('express');
 const MongoClient = require('mongodb').MongoClient;
 
-const config = require('./config');
+const config = require(`./config/${process.env.NODE_ENV !== 'production' ? 'dev' : 'prod'}`);
 const moduleRouter = require('./modules');
 
 

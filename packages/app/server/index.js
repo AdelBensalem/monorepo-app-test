@@ -3,7 +3,7 @@ const express = require('express');
 const next = require('next');
 const proxy = require('express-http-proxy');
 
-const config = require('../config');
+const config = require(`../config/${process.env.NODE_ENV !== 'production' ? 'dev' : 'prod'}`);
 
 
 const dev = process.env.NODE_ENV !== 'production';

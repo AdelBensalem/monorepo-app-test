@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "start": "lerna run start",
+    "start": "leran bootstrap && lerna run start",
     "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
