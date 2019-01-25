@@ -1,8 +1,8 @@
 {
   "port": 8080,
   "api": {
-    "protocol": "http",
-    "host": "localhost",
+    "protocol": "https",
+    "host": "root-dqejvueddf.now.sh",
     "port": 8000
   }
 }

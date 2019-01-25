@@ -1,7 +1,7 @@
 {
   "port": 8000,
   "mongo": {
-    "url": "mongodb://localhost:27017",
-    "db_name": "test"
+    "url": "mongodb://vild:RSFCBNk0+@ds113375.mlab.com:13375/monorepo-test",
+    "db_name": "monorepo-test"
   }
 }

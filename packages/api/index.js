@@ -9,7 +9,7 @@ MongoClient.connect(config.mongo.url, {useNewUrlParser: true}, (err, client) => 
     const app = express();
 
     if (err) {
-        app.use((req, res) => res.status(500).send('An error occurred'));
+        app.use((req, res) => res.status(500).send('An error occurred ' + config.mongo.url));
     }
 
     app.use((req, res, next) => {
