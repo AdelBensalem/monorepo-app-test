@@ -5,7 +5,7 @@
     "start": "lerna bootstrap && lerna run start",
     "bootstrap": "lerna bootstrap"
   },
-  "devDependencies": {
+  "dependencies": {
     "lerna": "^3.10.7"
   }
 }

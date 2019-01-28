@@ -2,7 +2,7 @@
   "port": 8080,
   "api": {
     "protocol": "https",
-    "host": "monorepo-deploy-test",
+    "host": "monorepo-deploy-test.herokuapp.com",
     "port": 8000
   }
 }
