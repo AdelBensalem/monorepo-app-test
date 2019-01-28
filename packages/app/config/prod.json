@@ -2,7 +2,7 @@
   "port": 8080,
   "api": {
     "protocol": "https",
-    "host": "root-dqejvueddf.now.sh",
+    "host": "monorepo-project",
     "port": 8000
   }
 }
