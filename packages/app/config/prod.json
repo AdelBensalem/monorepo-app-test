@@ -2,7 +2,7 @@
   "port": 8080,
   "api": {
     "protocol": "https",
-    "host": "monorepo-project",
+    "host": "monorepo-deploy-test",
     "port": 8000
   }
 }
